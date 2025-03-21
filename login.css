@@ -1,0 +1,124 @@
+
+body{
+    background-image:url(360_F_572922328_Sh3dseEbymxKctjMyoY2Y5BERUYBp0Ic.jpg);
+    opacity: inherit;
+  background-repeat:no-repeat ;
+  background-size:cover;
+    background-color:rgb(3, 3, 47) ;
+}
+.img{
+    height:100px;
+    width:200px;
+    overflow: hidden ;
+    transition: ease-in-out 0.5s;
+    border-radius: 40px;
+    padding: 0px ;
+    margin: 0px ;
+
+}
+.img:hover{
+    cursor: pointer;
+      transition: 0.5s;
+      height:110px;
+      width:300px;
+}
+.img:active{
+    opacity: 209px;
+  }
+  h1{
+    padding: 0px ;
+    margin:0px;
+    display: block;
+    color:white;
+    font-size: 35px;   
+     text-shadow: 6px 4px 10px black ;
+
+}
+  
+form{
+    border:none;
+    box-shadow: rgb(0, 0, 0) 0px 20px 100px;
+    background-color:white ,  black;
+    height:600px;
+    width:510px;
+    border-radius: 10px;
+}
+.username{
+    background-color:transparent;
+    border-bottom:2px solid white  ;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    color: black , white;
+    font-size: 30px;
+    opacity:0px;
+    margin: 0px 0px  0px 0px ;
+    display: block;
+    padding-top:35px;
+}
+
+.password{
+    background-color:transparent;
+
+    border-bottom:2px solid white  ;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    color: black, white;
+    font-size: 30px;
+    opacity:20px;
+    margin: 10px 0px  0px 0px ;
+    display: block;
+    padding:20px 20px 0px 0px ;
+}
+input:hover{
+
+    font-size:34px;
+    transition: 0.3s ease-in-out ;
+    margin-top: 0px ;
+ padding-bottom: 10px;
+
+}
+.signin{
+    font-size: 30px;
+    background-color:rgb(193, 111, 11) ;
+    border-radius: 20px ;
+    color:black;
+    font-weight: 20px;
+    margin-top: 40px;
+    border: none;
+    box-shadow:  white 1px 1px 10px ;
+    padding: 10px 20px 10px 20px ;
+
+}
+.signin:hover{
+    background-color:rgba(193, 111, 11, 0.322);
+    transition: 0.3s ease-in-out;
+    font-size: 35px;
+}
+.signin:active{
+    box-shadow: white 3px 3px 100px ;
+    transition: 0.3s ease-in-out;
+}
+h3{
+    color:black,white ;
+    margin-bottom: 30px;
+    
+}
+::placeholder{
+    color:white ;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.link{
+    text-decoration: none;
+    color:black ;
+    margin-bottom: 1px;
+
+}
+footer {
+    margin-top: 0px;
+    padding: 0px 0px 0px 0px ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

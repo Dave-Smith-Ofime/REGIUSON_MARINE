@@ -1,0 +1,176 @@
+/* General Styling */
+body {
+  background-image: url("ship14copy.jpg");
+  background-color: rgb(0, 25, 43);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+}
+
+/* Header Styling */
+header {
+  background: linear-gradient(to right, #000c26, #430202);
+  color: white;
+  padding: 0px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+  background-color: #03153a;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top:0px;
+}
+
+nav ul li {
+  margin: 10px 20px;
+  
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: background 0.3s;
+  
+}
+
+nav ul li a:hover {
+  background: #ff0000;
+  border-radius: 5px;
+}
+
+h1{
+  display: inline-block;
+  margin: 12.5px 0px;
+
+}
+
+/* Main Content */
+main {
+  padding: 50px;
+  text-align: center;
+}
+
+.image {
+  height: 80px;
+  width:90px;
+  padding: 0px ;
+  float: right;
+}
+
+.section {
+  padding: 40px;
+  padding-top:20px;
+  margin: 20px auto;
+  background: rgba(255, 255, 255, 0.421);
+  border-radius: 10px;
+  width: 80%;
+  color:black;
+  font-size: 40px;
+}
+
+.section h2 {
+  font-size: 120px;
+  color: blue;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top:0px;
+  text-shadow: white 0px 0px 10px;
+}
+
+.section p {
+  font-style: italic;
+  font-size: 56px;
+  color:black;
+  padding-top: 10px;
+  margin-top: 0px;
+  text-shadow: black 0px 0px 10px;
+}
+.service{
+  text-decoration: none;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:black;
+  padding:10px;
+  margin: 10px;
+  display: inline-flex;
+  border-radius: 30px ;
+  padding:10px;
+  margin: 10px;
+
+}
+.service:hover {
+  padding:15px;
+  font-size: 25px;
+  margin: 10px;
+  display: inline-flex;
+  transition: 0.4s;
+  background-color: red;
+  border-radius: 30px ;
+
+
+}
+/*dynamic image*/
+.dynamicImage1{
+  height:300px;
+  width:400px;
+   background-size: contain;
+  background-image: url("sludge.webp");
+  animation-name: dynamic;
+  animation-duration: 0s;
+
+}
+.dynamicImage2{
+  display:cover;
+  height:300px;
+  width:400px;
+   background-size: contain;
+  background-image: url("sludge.webp");
+  animation-name: dynamic;
+  animation-duration: 0s;
+  justify-content: center;
+
+}
+.dynamicImage:hover{
+  height:350px;
+  width:450px;
+   background-size: contain;
+  background-image: url("sludge.webp");
+  animation-name: dynamic;
+  animation-duration: 0s;
+
+}
+
+
+/* Standard syntax */
+@keyframes .dynamicImage {
+  from {background-image:url("sludge.webp") ;}
+  to {background-image:url("stowaway.webp");}
+}
+
+
+/* Footer Styling */
+footer {
+  background-color: #555;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+

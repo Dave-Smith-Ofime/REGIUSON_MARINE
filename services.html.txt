@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - REGUISON MARINE SERVICES</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Our Services</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="service">
+            <h2>Vessel Registration</h2>
+            <p>We provide seamless vessel registration services ensuring compliance with international maritime regulations.</p>
+        </section>
+        
+        <section class="service">
+            <h2>Sludge Removal</h2>
+            <p>Our team ensures safe and eco-friendly sludge removal from ships to maintain efficiency and environmental safety.</p>
+        </section>
+        
+        <section class="service">
+            <h2>Stowaway Search</h2>
+            <p>We offer professional stowaway search services to ensure vessel security and compliance with port regulations.</p>
+        </section>
+        
+        <section class="service">
+            <h2>Fresh Water Supply</h2>
+            <p>Reliable and hygienic fresh water supply for vessels at various ports.</p>
+        </section>
+        
+        <section class="service">
+            <h2>Oil Supply</h2>
+            <p>We supply high-quality fuel and lubricants for all types of marine vessels.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Reguison Marine Services Limited. All rights reserved.</p>
+        <a href="contact.html" class="btn">Contact Us</a>
+    </footer>
+</body>
+</html>
